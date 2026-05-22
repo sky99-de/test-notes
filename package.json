@@ -1,0 +1,36 @@
+{
+  "name": "test-notes",
+  "version": "1.0.0",
+  "description": "软件测试学习笔记与项目练习",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:update": "vitest run --update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sky99-de/test-notes.git"
+  },
+  "keywords": [
+    "software-testing",
+    "unit-testing",
+    "vitest",
+    "javascript",
+    "vue-testing"
+  ],
+  "author": "吴成扬",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sky99-de/test-notes/issues"
+  },
+  "homepage": "https://github.com/sky99-de/test-notes#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.7",
+    "@vitest/coverage-v8": "^2.1.7"
+  }
+}
